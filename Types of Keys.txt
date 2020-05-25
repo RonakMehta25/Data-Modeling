@@ -1,0 +1,18 @@
+Types of Keys
+1. Primary Keys
+2. Foreign Keys
+3. Candidate Keys
+Candidate keys are selected from the set of super keys, the only thing we take care while selecting candidate key is: It should not have any redundant attribute. That’s the reason they are also termed as minimal super key.
+
+4. Super Keys (column or number of columns that forces every rows to be unique)
+5. Surrogate Keys
+Just added incremental column which have no real world meaning.
+
+6. Natural Keys
+Already present in the data.
+
+7. Alternate Keys
+As we have seen in the candidate key guide that a table can have multiple candidate keys. Among these candidate keys, only one key gets selected as primary key, the remaining keys are known as alternative or secondary keys.
+
+8. Composite Keys
+A key that has more than one attributes is known as composite key. It is also known as compound key.

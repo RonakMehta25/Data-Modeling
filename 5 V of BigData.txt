@@ -1,0 +1,17 @@
+5 V of BigData
+
+1. Volume of data = Size of data 
+2. Velocity = Speed of Data Generation
+3. Variety of Data
+Data can be structured,semi-structured or unstructured
+
+4. Veracity refers to quality of data.
+Consistency and redunduncy of data.
+
+5. Connetedness of Data
+
+Structured Data : Tables
+Semi-structured : JSON , XML , key value
+Unstructured Data : Images , Audio , Video
+
+We can store unstructured data in table with blob and clob storage.

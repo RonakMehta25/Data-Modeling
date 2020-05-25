@@ -1,0 +1,35 @@
+Star Schema
+
+In the STAR Schema, the center of the star can have one fact table and a number of associated dimension tables.
+
+Every dimension in a star schema is represented with the only one-dimension table.
+
+The dimension table is joined to the fact table using a foreign key
+
+The dimension table are not joined to each other
+
+Fact table would contain key and measure
+
+The dimension tables are not normalized. For instance, in the above figure, Country_ID does not have Country lookup table as an OLTP design would have.
+
+Star schema is widely used by all OLAP systems to design OLAP cubes efficiently. In fact, major OLAP systems deliver a ROLAP mode of operation which can use a star schema as a source without designing a cube structure.
+
+
+Snowflake Schema
+
+It is used to represent ER diagram.
+
+A Snowflake Schema is an extension of a Star Schema, and it adds additional dimensions. 
+
+The dimension tables are normalized which splits data into additional tables.
+
+Tables are normalized thus reduce redunduncy. This may have complex design.
+
+The number of joins can increase and hence query performance can decrease
+
+The snowflake schema uses small disk space.
+It is easy to implement dimension is added to schema.
+
+Galaxy Schema
+
+A GALAXY SCHEMA contains two fact table that share dimension tables between them. It is also called Fact Constellation Schema.

@@ -1,0 +1,6 @@
+
+1. if record is not present, insert it
+2. if present, check if the new record is same as old record.
+3. if not perform SCD.
+
+spark.sql("select * from table where $key")

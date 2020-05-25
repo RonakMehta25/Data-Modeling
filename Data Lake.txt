@@ -1,0 +1,24 @@
+Data Lake
+
+A data lake is a storage repository that holds a vast amount of raw data in its native format, including structured, semi-structured, and unstructured data.
+
+Exceptional scalability
+Because an enterprise data lake is usually intended to be the centralized data store for an entire division or the company at large, it must be capable of significant scaling without running into fixed arbitrary capacity limits.
+
+Same for High durability
+
+Support for unstructured, semi-structured and structured data
+
+Independence from fixed schema
+The ability to apply schema upon read, as needed for each consumption purpose, can only be accomplished if the underlying core storage layer does not dictate a fixed schema.
+
+Separation from compute resources
+The most significant philosophical and practical advantage of cloud-based data lakes as compared to “legacy” big data storage on Hadoop is the ability to decouple storage from compute, enabling independent scaling of each.
+
+It should be schema on read.
+
+https://www.cloudtp.com/doppler/how-to-guide-architecture-patterns-to-consider-when-designing-an-enterprise-data-lake/
+
+AWS suggested Data Lake
+
+An example of a simple solution has been suggested by AWS, which involves triggering an AWS Lambda function when a data object is created on S3, and which stores data attributes into a DynamoDB data-base. The resultant DynamoDB-based data catalog can be indexed by Elasticsearch, allowing a full-text search to be performed by business users.

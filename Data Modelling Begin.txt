@@ -1,0 +1,21 @@
+Data Modelling Begin
+
+It is a diagram which depicts tables and their relationship
+
+Used in Software development as well as ETL.
+
+Stages are as follows :-
+
+1. Conceptual Data Models
+It is just tables and relationship between them without any attributes of the table
+
+
+2. Logical Data Models 
+Here attributes are added to tables. 
+This atributes are further classified as Key attributes and Non-Key attributes.
+It also contains Primary key and foreign key relationship
+It uses user friendly names
+
+
+3. Physical Data Models
+Define data types for the attribute

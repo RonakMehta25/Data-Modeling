@@ -1,0 +1,7 @@
+Cardinality
+
+Used to represent one to one or one to many relationships
+
+Modality 
+
+It is the minimum number of connections required between two tables. molity of 0 indicates that foreign key can be null and modality of 1 indicates atleast 1 or 1 connection is required.

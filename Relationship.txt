@@ -1,0 +1,31 @@
+Relationship
+
+Types of Relationship
+1. One to One
+
+Person table with Passport table
+
+2. One to Many
+
+One student can take many courses. One Person can pass many comments.
+
+3. Many to Many
+
+One subject can be taught by multiple instructor and one instructor can teach many subjects.
+
+Design One-to-One relationship. 
+It should be stored in the same table or separate table with one table storing foriegn key to primary table.
+
+Eg. One Card number belongs to One Person.
+
+Always remember table should contain information about only one thing . Either user or card
+
+Design One to Many relationship.
+
+Put reference from card to User. If one user can have many cards.
+
+Thus we have to reference from the table which has many connections.
+
+Many to Many Relationship
+
+For this relationship between 2 tables, we need to create intermediate table which contains key of both table acting as foreign key  

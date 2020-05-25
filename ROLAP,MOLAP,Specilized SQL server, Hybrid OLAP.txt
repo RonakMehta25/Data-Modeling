@@ -1,0 +1,21 @@
+Types of OLAP Servers
+
+ROLAP,MOLAP,Specilized SQL server, Hybrid OLAP.
+
+ROLAP servers are placed between relational back-end server and client front-end tools.
+
+MOLAP uses array-based multidimensional storage engines for multidimensional views of data. 
+
+Hybrid OLAP is a combination of both ROLAP and MOLAP. It offers higher scalability of ROLAP and faster computation of MOLAP.
+
+OLAP Operations
+
+Rollup is aggregation on dimension
+
+Drill down is opposite of rollup
+
+Slice selects one particular dimension from a given cube and provides a new sub-cube.
+
+Dice selects two or more dimensions from a given cube and provides a new sub-cube.
+
+The pivot operation is also known as rotation.

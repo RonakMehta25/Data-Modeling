@@ -1,0 +1,14 @@
+Data Integrity.
+
+
+It is used for correct,updated and connected data.
+
+Also Your database should not have repeating data.
+
+Data Integrity Types :-
+
+1. Entity Integrity is unique entities . Unique rows by Primary Key
+
+2. Referential Integrity (Product is bought by user in order table)
+
+3. Domain Integrity (Accpetable Values for a column)
